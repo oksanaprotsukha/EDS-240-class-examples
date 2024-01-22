@@ -35,7 +35,7 @@ temp_data_long <- temp_data_wide |>
 
 # what makes data tidy:
 # each observation forms a single row; 
-# column names are desriptive
+# column names are descriptive
 ```
 
 ### plot1
@@ -110,5 +110,9 @@ ggplot(penguins, aes(x = species)) +
   theme(
     axis.title = element_text(size = 17, color = "purple")
   )
+```
+
+```{r}
+source(here::here("week3", "KEYS.R"))
 ```
 

@@ -50,3 +50,6 @@ rsconnect/
 
 # Data files
 /week*/data/
+
+# Auth files
+/week3/KEYS.R
